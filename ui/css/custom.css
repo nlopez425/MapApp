@@ -1,0 +1,135 @@
+
+body,html{height: 100%;}
+
+header{
+	height: 70px;
+	padding: 5px 15px;
+	font-size: 40px;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #EBEBEC;
+}
+
+header i{color: #0393C9;}
+
+header span#app-name{font-size: 20px;position: relative;top: -1px;font-family: "CiscoSansTT Light"}
+
+div#map-container{}
+
+div#map-container div#side-nav-wrapper{
+	float: left;
+	width: 90px;
+	height: 430px;
+	background: #343537;
+}
+
+div#map-container div#side-nav-wrapper div.filter-button{
+	background: #292929;
+	border-radius: 50%;
+	height: 45px;
+	margin: 10px auto 0;
+	width: 45px;
+	cursor: pointer;
+	position: relative;
+	font-size: 20px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+div#map-container div#side-nav-wrapper div.filter-button ul.filter-button-sub-links{
+	background: #66c5e8;
+	position: absolute;
+	right: -488%;
+	z-index: 100;
+	display: block;
+	white-space: nowrap;
+	padding: 0;
+	margin:0;
+	display: none;
+	opacity: 0;
+	
+}
+
+div#map-container div#side-nav-wrapper div.filter-button ul.filter-button-sub-links.active{display: inline-block;}
+
+
+div#map-container div#side-nav-wrapper div.filter-button ul.filter-button-sub-links li {
+  border-right: 1px solid #fff;
+  color: #fff;
+  list-style: none;
+  padding: 0 15px;
+  float:left;
+  transition:all .25s;
+  font-size: 16px;
+}
+div#map-container div#side-nav-wrapper div.filter-button ul.filter-button-sub-links li:last-child{border-right: none;}
+div#map-container div#side-nav-wrapper div.filter-button ul.filter-button-sub-links li:hover{background:#0393c9;}
+
+div#map-container div#side-nav-wrapper div.filter-button.active{
+	background: #66C5E8;
+	color: #265a88;
+}
+
+
+div#map-container div#side-nav-wrapper div#highlight{
+	margin-top: 10px;
+}
+
+div#map-container div#side-nav-wrapper div.filter-heading{
+	background: #858688;
+	color: #292929;
+	height: 25px;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+}
+
+div#map-container div#side-nav-wrapper p.btn-label {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 15px;
+}
+
+div#map-container div#map-wrapper{height: 100%;width: auto;padding-left: 90px;min-width: 936px;}
+div#map-container div#map{
+	width: 100%;
+	height: 406px;
+	background: #fff;
+}
+
+div#map-container div#compare-wrapper{
+	height: 25px;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #EBEBEC;
+	font-size: 11px;
+	position: relative;
+}
+
+div#map-container div#compare-wrapper span#compare-text{
+	font-size: 11px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+
+div#map-container div#compare-wrapper button#compare-btn{
+	border-radius: 0;
+	height: 25px;
+	padding: 8px;
+	position: absolute;
+	right: 0;
+	width: 200px;
+	line-height: 0.429;
+}
+
+div#table-wrapper{
+	width: 100%;
+	height: calc( 100% - 501px );
+}
+
+div#data-table_filter{padding: 10px;}
